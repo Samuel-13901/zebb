@@ -1,3 +1,4 @@
+import '@fortawesome/fontawesome-free/css/all.css';
 let bar_btn = document.querySelector('#bar-menu-btn');
 let drop_menu = document.querySelector('#dropdown-menu');
 let icon = document.querySelector('#icon');
