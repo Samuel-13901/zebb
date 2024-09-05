@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zebb</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+</head>
+
+<body>
+
+    <!-- header-start -->
+    <div class="font-merriweather sticky top-0 z-[1000] backdrop-blur-md bg-opacity-35 border-b-none bg-white">
+
+        <!-- nav-bar-start -->
+        <nav class="px-[16px] py-[24px] sm:px-[20px] flex items-center justify-between md:px-[32px] md:py-[12px] lg:py-[8] shadow-md
+            relative">
+
+            <!-- Logo -->
+            <div class="flex items-center gap-1">
+                <img src="./assets/zebb.svg" alt="zebb-logo" class="w-[35px] sm:w-[54.87px] md:w-[48px]">
+                <h1 class="font-bold text-[18.5px] sm:text-[28px] text-primary-500-0 md:text-[28px]">Zebb</h1>
+            </div>
+
+            <!-- nav-bar-items-container -->
+            <div class="hidden md:static md:flex md:z-10 md:bg-transparent md:py-0 md:px-0 md:h-full">
+                <!-- nav-bar-items -->
+                <div class="flex flex-col gap-5 md:flex md:flex-row md:items-center md:space-x-[60px]">
+                    <!-- nav-items -->
+                    <ul class="space-y-[20px] md:space-y-0 md:flex md:flex-row md:text-[16px] md:gap-10 font-bold">
+                        <li>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#about">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#enjoy">SERVICES</a>
+                        </li>
+                        <li>
+                            <a href="">OUR WORKS</a>
+                        </li>
+                    </ul>
+                    <button class="btn-black text-[16px] md:px-[40px] md:py-[24px]">CONTACT US</button>
+                </div>
+            </div>
+
+            <!-- Bar-Menu-Btn -->
+            <div class="md:hidden" id="bar-menu-btn">
+                <span class="fa-solid fa-bars text-[25px] sm:text-[32px] text-primary-500-0 cursor-pointer" id="icon"></span>
+            </div>
+
+        </nav>
+        <!-- nab-bar-end-here -->
+
+    </div>
+    <!-- header-end-here -->
+
+    <!-- dropdown-nav-bar-items -->
+    <div class="animate__animated md:hidden fixed flex flex-col gap-[30px] py-[24px] px-[16px] invisible
+        bg-primary-500-0 w-full items-center text-center z-10 shadow-lg backdrop-blur-md bg-opacity-50" id="dropdown-menu">
+        <!-- nav-items -->
+        <ul class="space-y-[30px] md:space-y-0 md:flex md:flex-row md:text-[16px] md:gap-10 font-bold">
+            <li>
+                <a href="#">HOME</a>
+            </li>
+            <li>
+                <a href="#about">ABOUT</a>
+            </li>
+            <li>
+                <a href="#enjoy">SERVICES</a>
+            </li>
+            <li>
+                <a href="">OUR WORKS</a>
+            </li>
+        </ul>
+        <button class="btn-black text-[16px] px-[20px] py-[14px]">CONTACT US</button>
+    </div>
+
+    <!-- main-content-start -->
+    <main class="p-0 m-0 box-border font-merriweather overflow-hidden">
+
+        <!-- hero_section_start -->
+        <div class="px-[16px] sm:px-[20px] md:px-[32px] lg:py-[200px] xl:px-[150px] py-[60px] sm:py-[100px] xl:py-[300px] flex flex-col items-center gap-[60px]
+        md:flex-row md:justify-between md:items-center" id="home">
+
+            <!-- hero_content -->
+            <div class="space-y-10 text-center md:text-start w-[288px] sm:w-[548px] md:space-y-[56px]">
+                <!-- hero_heading -->
+                <h1
+                    class="text-[40px] font-bold leading-[52px] sm:text-[64px] lg:text-[76px] sm:leading-[82px] lg:leading-[110px]">
+                    We help to Create <span class="bg-primary-500-0 text-white px-[2px]">Brands</span> With Coffee
+                </h1>
+                <!-- hero_button -->
+                <button
+                    class="font-bold btn-black px-[20px] py-[16px] text-[16px] sm:px-[40px] sm:py-[24px] sm:text-[18px]">
+                    See our work
+                </button>
+            </div>
+            <!-- hero_img -->
+            <img src="./assets/coffee.svg" alt=""
+                class="w-[237px] h-[203px] sm:w-[419px] sm:h-[360px] lg:w-[592px] lg:h-[508px]">
+
+        </div>
+        <!-- hero_section_end_here -->
+
+
+        <!-- power_section_start -->
+        <div class="py-[80px] px-[16px] sm:px-[20px] md:px-[32px] lg:py-[200px] xl:px-[150px] sm:py-[100px] flex flex-col items-center gap-[60px] sm:gap-[100px]
+        md:flex-row-reverse md:justify-between md:items-center" id="about">
+
+            <!-- power_section_upper -->
+            <div class="w-[288px] sm:w-[517px] flex flex-col gap-[60px]">
+
+                <!-- power_section_content -->
+                <div class="flex flex-col  gap-[42px]">
+                    <!-- Power_Header -->
+                    <h1 class="font-bold text-[40px] leading-[52px] text-center sm:text-[54px] sm:leading-[62px]">
+                        Powered by
+                        <span class="relative">
+                            talented people
+                            <span
+                                class="absolute bg-primary-500-0 -bottom-1 sm:bottom-0 -right-1 sm:right-0  w-full h-[29px] -z-10"></span>
+                        </span>
+                        </span>
+                    </h1>
+
+                    <!-- Power_Paragraph -->
+                    <div
+                        class="text-center text-[16px] font-normal leading-5 space-y-5 sm:text-[18px] sm:leading-[23px]">
+                        <p>
+                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                            pain
+                            was
+                            born and I will give you a complete account of the system.
+                        </p>
+                        <p>
+
+                            I wrote to let them know ready to came back they kicked me of their team slack all of us are
+                            make
+                            company email.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- power_section_button -->
+                <div class="flex flex-col items-center gap-[40px] sm:gap-[63px] sm:flex-row sm:justify-center">
+                    <button
+                        class="btn-black text-[16px] px-[20px] py-[16px] max-w-fit sm:px-[40px] sm:py-[24px] shadow-lg">Learn
+                        more</button>
+                    <div class="flex items-center gap-[24px]">
+                        <img src="./assets/play.svg" alt="" class="size-[68px]">
+                        <span class="text-[18px] font-semibold">Watch videos</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <img src="./assets/power.svg" alt=""
+                class="w-[243px] h-[208px] rounded-[500px] sm:w-[436px] sm:h-[374px] lg:w-[592px] lg:h-[508px]">
+
+        </div>
+        <!-- power_section_end-here -->
+
+
+        <!-- things_we_enjoy_section_start -->
+        <div class="py-[80px] px-[16px] sm:px-[20px] md:px-[32px] lg:py-[200px] xl:px-[150px] sm:py-[100px] space-y-[40px] mx-auto sm:flex sm:flex-col sm:items-start sm:gap-[188px] relative overflow-hidden
+        md:flex-row md:items-center md:justify-between" id="enjoy">
+
+            <!-- upper_enjoys -->
+            <div class="space-y-[120px]">
+                <!-- enjoy_heading -->
+                <h1 class="font-bold text-black-btn-0 text-center sm:text-start text-[40px] leading-[52px]">
+                    <span class="relative">
+                        Things We <br class="sm:hidden"> Enjoy
+                        <span
+                            class="absolute bg-primary-500-0 -z-10 w-[121px] h-[26px] bottom-0 left-[45px] sm:w-full sm:left-0"></span>
+                    </span>
+                </h1>
+
+                <!-- enjoy_cards_upper -->
+                <div class="space-y-[40px]">
+                    <!-- 04_enjoy -->
+                    <div
+                        class="space-y-[40px] w-[288px] sm:w-[461px] sm:flex sm:gap-[40px] md:gap-[25px] sm:items-center">
+                        <img src="./assets/04.svg" alt="" class="w-[83px] h-[72px] md:w-[70px]">
+                        <div class="pt-8px space-y-[20px]">
+                            <h1 class="font-bold text-[28px] leading-[36px]">
+                                Content writing
+                            </h1>
+                            <p class="text-[18px] leading-[23px]">
+                                But I must explain to you how all this
+                                <br class="sm:hidden">
+                                mistaken idea of denouncing pleasure
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 05_enjoy -->
+                    <div
+                        class="space-y-[40px] w-[288px] sm:w-[461px] sm:flex sm:gap-[40px] md:gap-[25px] sm:items-center">
+                        <img src="./assets/05.svg" alt="" class="w-[83px] h-[72px] md:w-[70px]">
+                        <div class="pt-8px space-y-[20px]">
+                            <h1 class="font-bold text-[28px] leading-[36px]">
+                                Video Production
+                            </h1>
+                            <p class="text-[18px] leading-[23px]">
+                                But I must explain to you how all this
+                                <br class="sm:hidden">
+                                mistaken idea of denouncing pleasure
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 06_enjoy -->
+                    <div
+                        class="space-y-[40px] w-[288px] sm:w-[461px] sm:flex sm:gap-[40px] md:gap-[25px] sm:items-center">
+                        <img src="./assets/06.svg" alt="" class="w-[83px] h-[72px] md:w-[70px]">
+                        <div class="pt-8px space-y-[20px]">
+                            <h1 class="font-bold text-[28px] leading-[36px]">
+                                Social media marketing
+                            </h1>
+                            <p class="text-[18px] leading-[23px]">
+                                But I must explain to you how all this
+                                <br class="sm:hidden">
+                                mistaken idea of denouncing pleasure
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- enjoy_cards_lower -->
+            <div class="space-y-[40px]">
+                <!-- 01_enjoy -->
+                <div
+                    class="space-y-[40px] w-[288px] sm:w-[461px] md:w-[543px] sm:flex sm:gap-[40px] md:gap-[25px] sm:items-center">
+                    <img src="./assets/01.svg" alt="" class="w-[83px] h-[72px] md:w-[70px]">
+                    <div class="pt-8px space-y-[20px]">
+                        <h1 class="font-bold text-[28px] leading-[36px]">
+                            Digital Illustration
+                        </h1>
+                        <p class="text-[18px] leading-[23px]">
+                            But I must explain to you how all this
+                            <br class="sm:hidden">
+                            mistaken idea of denouncing pleasure
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 02_enjoy -->
+                <div
+                    class="space-y-[40px] w-[288px] sm:w-[461px] md:w-[543px] sm:flex sm:gap-[40px] md:gap-[25px] sm:items-center">
+                    <img src="./assets/02.svg" alt="" class="w-[83px] h-[72px] md:w-[70px]">
+                    <div class="pt-8px space-y-[20px]">
+                        <h1 class="font-bold text-[28px] leading-[36px]">
+                            Website design & development
+                        </h1>
+                        <p class="text-[18px] leading-[23px]">
+                            But I must explain to you how all this
+                            <br class="sm:hidden">
+                            mistaken idea of denouncing pleasure
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 03_enjoy -->
+                <div
+                    class="space-y-[40px] w-[288px] sm:w-[461px] md:w-[543px] sm:flex sm:gap-[40px] md:gap-[25px] sm:items-center">
+                    <img src="./assets/03.svg" alt="" class="w-[83px] h-[72px] md:w-[70px]">
+                    <div class="pt-8px space-y-[20px]">
+                        <h1 class="font-bold text-[28px] leading-[36px]">
+                            Social media management
+                        </h1>
+                        <p class="text-[18px] leading-[23px]">
+                            But I must explain to you how all this
+                            <br class="sm:hidden">
+                            mistaken idea of denouncing pleasure
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <img src="./assets/enjoy.svg" alt="" class="absolute opacity-[0.2] -z-10 top-0  w-[534px] h-[458px] md:w-[652px] md:h-[560px] sm:top-[35%] sm:-right-[20%]
+            md:-left-[20%]">
+
+        </div>
+        <!-- things_we_enjoy_section_end_here -->
+
+
+        <!-- craft_experience_start -->
+        <div class="py-[80px] px-[16px] sm:py-[100px] sm:px-[32px] xl:px-[150px] text-black-btn-0 flex flex-col items-center gap-[100px]
+        sm:text-center md:text-start md:flex-row md:justify-between">
+
+            <!-- craft_session_content -->
+            <div class="w-[288px] sm:w-[664px] space-y-[60px] md:flex md:flex-col md:items-start">
+
+                <h1 class="text-[40px] leading-[52px] sm:text-[54px] md:w-[664px] sm:leading-[72px] font-bold">
+                    We craft experiences for business to help reach
+                    <span class="relative">
+                        our
+                        <br class="sm:hidden"> customers
+                        <span
+                            class="absolute bg-primary-500-0 bottom-0 left-0 -z-10 w-[215px] h-[25px] sm:w-[406px] sm:h-[34px]"></span>
+                    </span>
+                </h1>
+                <p class="text-[18px] leading-[32px] md:w-[481px]">
+                    But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                    born and I will give you a complete account of the system.
+                </p>
+                <button class="btn-black px-[40px] py-[24px] text-[18px] leading-[23px]">
+                    Learn More
+                </button>
+
+            </div>
+
+            <!-- craft_session_svg -->
+            <img src="./assets/craft.svg" alt=""
+                class="w-[294px] h-[256px] sm:w-[444px] sm:h-[382px] lg:w-[619px] lg:h-[532px] xl:w-[780px] xl:h-[670px]">
+
+        </div>
+        <!-- craft_experience_end_here -->
+
+
+        <!-- meet_the_team_session -->
+        <div class="px-[16px] py-[80px] sm:px-[20px] sm:py-[100px] md:px-[32px] xl:px-[150px] space-y-[104px]">
+
+            <!-- meet_the_team_heading -->
+            <h1
+                class="font-bold text-center text-[40px] leading-[52px] sm:text-[54px] sm:leading-[72px] text-black-btn-0">
+                <span class="relative">
+                    Meet the <br class="sm:hidden">Team
+                    <span
+                        class="absolute w-[123px] h-[23px] sm:w-full bg-primary-500-0 bottom-0 left-[25px] sm:left-0 sm:h-[30px] -z-10"></span>
+                </span>
+            </h1>
+
+            <!-- Team_Grid_Container -->
+            <div class="md:grid space-y-[51px] overflow-hidden">
+
+                <div class="space-y-[19px] md:space-y-0 md:grid md:grid-cols-3 md:gap-[19px]">
+                    <!-- Illustrator -->
+                    <div
+                        class="flex flex-col items-center py-[71px] rounded-[30px] gap-[60px] team-hover shadow-team-shadow">
+                        <img src="./assets/team1.svg" alt=""
+                            class="size-[200px] border-2 border-black-btn-0 rounded-full p-[5px]">
+                        <div class="flex flex-col items-center gap-[24px]">
+                            <h1 class="font-bold text-[28px] leading-[36px]">Samantha Jones</h1>
+                            <span class="text-[18px] leading-[23px]">Illustrator</span>
+                        </div>
+                    </div>
+
+                    <!-- Owner Creative Director -->
+                    <div
+                        class="flex flex-col items-center py-[71px] rounded-[30px] gap-[60px] team-hover shadow-team-shadow">
+                        <img src="./assets/team2.svg" alt=""
+                            class="size-[200px] border-2 border-black-btn-0 rounded-full p-[5px]">
+                        <div class="flex flex-col items-center gap-[24px]">
+                            <h1 class="font-bold text-[28px] leading-[36px]">Mark Ali</h1>
+                            <span class="text-[18px] leading-[23px]">Owner, Creative Director</span>
+                            <span class="text-[18px] leading-[23px]"><a href="">See Detail</a></span>
+                        </div>
+                    </div>
+
+                    <!-- Head of Marketing -->
+                    <div
+                        class="flex flex-col items-center py-[71px] rounded-[30px] gap-[60px] team-hover shadow-team-shadow">
+                        <img src="./assets/team3.svg" alt=""
+                            class="size-[200px] border-2 border-black-btn-0 rounded-full p-[5px]">
+                        <div class="flex flex-col items-center gap-[24px]">
+                            <h1 class="font-bold text-[28px] leading-[36px]">David John</h1>
+                            <span class="text-[18px] leading-[23px]">Head of Marketing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-[19px] md:space-y-0 md:grid md:grid-cols-3 md:gap-[19px]">
+
+                    <!-- Graphic Designer -->
+                    <div
+                        class="flex flex-col items-center py-[71px] rounded-[30px] gap-[60px] team-hover shadow-team-shadow">
+                        <img src="./assets/team4.svg" alt=""
+                            class="size-[200px] border-2 border-black-btn-0 rounded-full p-[5px]">
+                        <div class="flex flex-col items-center gap-[24px]">
+                            <h1 class="font-bold text-[28px] leading-[36px]">John Dean</h1>
+                            <span class="text-[18px] leading-[23px]">Graphic Designer</span>
+                        </div>
+                    </div>
+
+                    <!-- Social Media manager -->
+                    <div
+                        class="flex flex-col items-center py-[71px] rounded-[30px] gap-[60px] team-hover shadow-team-shadow">
+                        <img src="./assets/team5.svg" alt=""
+                            class="size-[200px] border-2 border-black-btn-0 rounded-full p-[5px]">
+                        <div class="flex flex-col items-center gap-[24px]">
+                            <h1 class="font-bold text-[28px] leading-[36px]">Alice Kate</h1>
+                            <span class="text-[18px] leading-[23px]">Social Media Manager</span>
+                        </div>
+                    </div>
+
+                    <!-- Web Designer & Developer -->
+                    <div
+                        class="flex flex-col items-center py-[71px] rounded-[30px] gap-[60px] team-hover shadow-team-shadow">
+                        <img src="./assets/team6.svg" alt=""
+                            class="size-[200px] border-2 border-black-btn-0 rounded-full p-[5px]">
+                        <div class="flex flex-col items-center gap-[24px]">
+                            <h1 class="font-bold text-[28px] leading-[36px]">Jhang Yui</h1>
+                            <span class="text-[18px] leading-[23px]">Web Designer & Developer</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- meet_the_team_session_end_here -->
+
+        <!-- our_work_session_start --> 
+        <div class="py-[80px] sm:py-[100px] px-[16px] sm:px-[20px] md:px-[32px] xl:px-[150px] flex flex-col items-center gap-[60px]">
+
+            <!-- our_work_heading -->
+            <h1 class="text-[40px] leading-[52px] text-center font-bold w-[288px] sm:text-[54px] sm:leading-[72px] sm:w-fit">
+                Some of Our <br class="hidden sm:block md:hidden">
+                <span class="relative">
+                    Previous <br class="sm:hidden"> Work
+                    <span class="absolute bg-primary-500-0 bottom-0 left-[30px] h-[26px] w-[116px] -z-10 sm:w-full sm:left-0"></span>
+                </span>
+            </h1>
+
+            <!-- work_nav -->
+            <div class="flex justify-between font-bold text-[18px] w-full leading-[23px] sm:text-[24px] sm:leading-[36px] sm:gap-[60px] sm:justify-center sm:items-center">
+              <div class="space-y-[24px] sm:flex sm:space-y-0 sm:gap-[60px]">
+                <p class=""><a href="" class="bg-primary-500-0 p-1">ALL</a></p>
+                <p><a href="">Illustration</a></p>
+              </div>
+              <div class="space-y-[24px] sm:flex sm:space-y-0 sm:gap-[60px]">
+                <p><a href="">App</a></p>
+                <p><a href="">Branding</a></p>
+              </div>
+            </div>
+            
+            <!-- work_cards --> 
+            <div class="flex flex-col gap-[32px] w-full items-center md:grid md:grid-cols-3 md:grid-rows-4 xl:auto-rows-fr">
+                <img src="./assets/work1.svg" alt="" class="bg-work-bg-0 w-full h-[333px] shadow-team-shadow object-contain md:row-start-1 md:row-span-2 md:h-[100%]">
+                <img src="./assets/work2.svg" alt="" class="bg-work-bg-0 w-full h-[333px] shadow-team-shadow object-cover object-center sm:object-contain md:object-cover md:row-start-3 md:row-span-2 md:h-[100%]">
+                <img src="./assets/work3.svg" alt="" class="bg-work-bg-0 w-full h-[333px] shadow-team-shadow object-cover object-center sm:object-contain md:h-[100%] md:row-span-2">
+                <img src="./assets/work4.svg" alt="" id="hidden_work" class="bg-work-bg-0 hidden w-full h-[333px] md:inline-block shadow-team-shadow md:object-cover object-center md:row-start-4 md:col-span-2 md:h-[100%]">
+                <img src="./assets/work5.svg" alt="" id="hidden_work" class="bg-work-bg-0 hidden w-full h-[333px] md:inline-block shadow-team-shadow md:object-contain object-center md:h-[100%]">
+                <img src="./assets/work6.svg" alt="" id="hidden_work" class="bg-work-bg-0 hidden w-full h-[333px] md:inline-block shadow-team-shadow md:object-contain object-center md:row-start-1 md:row-span-3 md:h-[100%]">
+            </div>
+            <button class="btn-black px-[60px] py-[24px] md:hidden" id="see-more-work">See More</button>
+
+
+        </div>
+
+
+    </main>
+    <!-- Main-Content-End-Here -->
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
