@@ -1,0 +1,152 @@
+
+            <div>
+                <!-- slider_wrapper -->
+                <div class="">
+                    <!-- card_list -->
+                    <div>
+                        <!-- slider_card_one -->
+                        <div class="flex flex-col items-center gap-[46px] px-[20px] py-[40px] sm:px-[40px] sm:py-[60px] border-black-btn-0 border-2 rounded-[10%]
+                    select-none cursor-pointer">
+                            <!-- Upper -->
+                            <div class="flex flex-col items-center w-[248px] gap-[24px] sm:w-[380px md:w-[460px]">
+                                <img src="./assets/cus1.svg" alt="" class="size-[150px] bg-work-bg-0 rounded-full p-2">
+                                <div class="text-stars-0 space-x-4">
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                </div>
+                                <p class="text-[18px] leading-[23px] text-center">
+                                    “My experience with Mark is a complete success, from customer service, wide rang of
+                                    products, clean store, purchasing experience
+                                </p>
+                            </div>
+                            <!-- Lower -->
+                            <div class="text-[18px] leading-[23px] space-y-[6px] text-center">
+                                <p>Samantha Kate</p>
+                                <p class="font-bold">
+                                    CEO of Float.com
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- slider_card_two -->
+                        <div class="flex flex-col items-center gap-[46px] px-[20px] py-[40px] sm:px-[40px] sm:py-[60px] border-black-btn-0 border-2 rounded-[10%]
+                       select-none cursor-pointer">
+                            <!-- Upper -->
+                            <div class="flex flex-col items-center w-[248px] gap-[24px] sm:w-[380px md:w-[460px]">
+                                <img src="./assets/cus2.svg" alt="" class="size-[150px] bg-work-bg-0 rounded-full p-2">
+                                <div class="text-stars-0 space-x-4">
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                </div>
+                                <p class="text-[18px] leading-[23px] text-center">
+                                    “My experience with Mark is a complete success, from customer service, wide rang of
+                                    products, clean store, purchasing experience
+                                </p>
+                            </div>
+                            <!-- Lower -->
+                            <div class="text-[18px] leading-[23px] space-y-[6px] text-center">
+                                <p>Sandra Samuel</p>
+                                <p class="font-bold">
+                                    CEO of sweetfloral.com
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- slider_card_three -->
+                        <div class="flex flex-col items-center gap-[46px] px-[20px] py-[40px] sm:px-[40px] sm:py-[60px] border-black-btn-0 border-2 rounded-[10%]
+                    select-none cursor-pointer">
+                            <!-- Upper -->
+                            <div class="flex flex-col items-center w-[248px] gap-[24px] sm:w-[380px md:w-[460px]">
+                                <img src="./assets/cus3.svg" alt="" class="size-[150px] bg-work-bg-0 rounded-full p-2">
+                                <div class="text-stars-0 space-x-4">
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                </div>
+                                <p class="text-[18px] leading-[23px] text-center">
+                                    “My experience with Mark is a complete success, from customer service, wide rang of
+                                    products, clean store, purchasing experience
+                                </p>
+                            </div>
+                            <!-- Lower -->
+                            <div class="text-[18px] leading-[23px] space-y-[6px] text-center">
+                                <p>Aaron Paul</p>
+                                <p class="font-bold">
+                                    CEO of Getnow.com
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- slider_card_four -->
+                        <div class="flex flex-col items-center gap-[46px] px-[20px] py-[40px] sm:px-[40px] sm:py-[60px] border-black-btn-0 border-2 rounded-[10%]
+                       select-none cursor-pointer">
+                            <!-- Upper -->
+                            <div class="flex flex-col items-center w-[248px] gap-[24px] sm:w-[380px md:w-[460px]">
+                                <img src="./assets/cus4.svg" alt="" class="size-[150px] bg-work-bg-0 rounded-full p-2">
+                                <div class="text-stars-0 space-x-4">
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                </div>
+                                <p class="text-[18px] leading-[23px] text-center">
+                                    “My experience with Mark is a complete success, from customer service, wide rang of
+                                    products, clean store, purchasing experience
+                                </p>
+                            </div>
+                            <!-- Lower -->
+                            <div class="text-[18px] leading-[23px] space-y-[6px] text-center">
+                                <p>Olivia Ling</p>
+                                <p class="font-bold">
+                                    CEO of maths.com
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- slider_card_five -->
+                        <div class="flex flex-col items-center gap-[46px] px-[20px] py-[40px] sm:px-[40px] sm:py-[60px] border-black-btn-0 border-2 rounded-[10%]
+                    select-none cursor-pointer">
+                            <!-- Upper -->
+                            <div class="flex flex-col items-center w-[248px] gap-[24px] sm:w-[380px md:w-[460px]">
+                                <img src="./assets/cus5.svg" alt="" class="size-[150px] bg-work-bg-0 rounded-full p-2">
+                                <div class="text-stars-0 space-x-4">
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                    <span class="fa-solid fa-star"></span>
+                                </div>
+                                <p class="text-[18px] leading-[23px] text-center">
+                                    “My experience with Mark is a complete success, from customer service, wide rang of
+                                    products, clean store, purchasing experience
+                                </p>
+                            </div>
+                            <!-- Lower -->
+                            <div class="text-[18px] leading-[23px] space-y-[6px] text-center">
+                                <p>Dean Winchester</p>
+                                <p class="font-bold">
+                                    CEO of Family.business
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>

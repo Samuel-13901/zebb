@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zebb</title>
     <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 </head>
@@ -41,7 +42,7 @@
                             <a href="#enjoy">SERVICES</a>
                         </li>
                         <li>
-                            <a href="">OUR WORKS</a>
+                            <a href="#work">OUR WORKS</a>
                         </li>
                     </ul>
                     <button class="btn-black text-[16px] md:px-[40px] md:py-[24px]">CONTACT US</button>
@@ -50,7 +51,8 @@
 
             <!-- Bar-Menu-Btn -->
             <div class="md:hidden" id="bar-menu-btn">
-                <span class="fa-solid fa-bars text-[25px] sm:text-[32px] text-primary-500-0 cursor-pointer" id="icon"></span>
+                <span class="fa-solid fa-bars text-[25px] sm:text-[32px] text-primary-500-0 cursor-pointer"
+                    id="icon"></span>
             </div>
 
         </nav>
@@ -61,7 +63,8 @@
 
     <!-- dropdown-nav-bar-items -->
     <div class="animate__animated md:hidden fixed flex flex-col gap-[30px] py-[24px] px-[16px] invisible
-        bg-primary-500-0 w-full items-center text-center z-10 shadow-lg backdrop-blur-md bg-opacity-50" id="dropdown-menu">
+        bg-primary-500-0 w-full items-center text-center z-10 shadow-lg backdrop-blur-md bg-opacity-50"
+        id="dropdown-menu">
         <!-- nav-items -->
         <ul class="space-y-[30px] md:space-y-0 md:flex md:flex-row md:text-[16px] md:gap-10 font-bold">
             <li>
@@ -95,10 +98,10 @@
                     We help to Create <span class="bg-primary-500-0 text-white px-[2px]">Brands</span> With Coffee
                 </h1>
                 <!-- hero_button -->
-                <button
-                    class="font-bold btn-black px-[20px] py-[16px] text-[16px] sm:px-[40px] sm:py-[24px] sm:text-[18px]">
-                    See our work
-                </button>
+                <div
+                    class="font-bold btn-black px-[20px] py-[16px] text-[16px] sm:px-[40px] sm:py-[24px] sm:text-[18px] cursor-pointer max-w-fit">
+                    <a href="#work">See our work</a>
+                </div>
             </div>
             <!-- hero_img -->
             <img src="./assets/coffee.svg" alt=""
@@ -419,41 +422,196 @@
         </div>
         <!-- meet_the_team_session_end_here -->
 
-        <!-- our_work_session_start --> 
-        <div class="py-[80px] sm:py-[100px] px-[16px] sm:px-[20px] md:px-[32px] xl:px-[150px] flex flex-col items-center gap-[60px]">
+        <!-- our_work_session_start -->
+        <div class="py-[80px] sm:py-[100px] px-[16px] sm:px-[20px] md:px-[32px] xl:px-[150px] flex flex-col items-center gap-[60px]"
+            id="work">
 
             <!-- our_work_heading -->
-            <h1 class="text-[40px] leading-[52px] text-center font-bold w-[288px] sm:text-[54px] sm:leading-[72px] sm:w-fit">
+            <h1
+                class="text-[40px] leading-[52px] text-center font-bold w-[288px] sm:text-[54px] sm:leading-[72px] sm:w-fit">
                 Some of Our <br class="hidden sm:block md:hidden">
                 <span class="relative">
                     Previous <br class="sm:hidden"> Work
-                    <span class="absolute bg-primary-500-0 bottom-0 left-[30px] h-[26px] w-[116px] -z-10 sm:w-full sm:left-0"></span>
+                    <span
+                        class="absolute bg-primary-500-0 bottom-0 left-[30px] h-[26px] w-[116px] -z-10 sm:w-full sm:left-0"></span>
                 </span>
             </h1>
 
             <!-- work_nav -->
-            <div class="flex justify-between font-bold text-[18px] w-full leading-[23px] sm:text-[24px] sm:leading-[36px] sm:gap-[60px] sm:justify-center sm:items-center">
-              <div class="space-y-[24px] sm:flex sm:space-y-0 sm:gap-[60px]">
-                <p class=""><a href="" class="bg-primary-500-0 p-1">ALL</a></p>
-                <p><a href="">Illustration</a></p>
-              </div>
-              <div class="space-y-[24px] sm:flex sm:space-y-0 sm:gap-[60px]">
-                <p><a href="">App</a></p>
-                <p><a href="">Branding</a></p>
-              </div>
+            <div
+                class="flex justify-between font-bold text-[18px] w-full leading-[23px] sm:text-[24px] sm:leading-[36px] sm:gap-[60px] sm:justify-center sm:items-center">
+                <div class="space-y-[24px] sm:flex sm:space-y-0 sm:gap-[60px]">
+                    <p class=""><a href="" class="bg-primary-500-0 p-1">ALL</a></p>
+                    <p><a href="">Illustration</a></p>
+                </div>
+                <div class="space-y-[24px] sm:flex sm:space-y-0 sm:gap-[60px]">
+                    <p><a href="">App</a></p>
+                    <p><a href="">Branding</a></p>
+                </div>
             </div>
-            
-            <!-- work_cards --> 
-            <div class="flex flex-col gap-[32px] w-full items-center md:grid md:grid-cols-3 md:grid-rows-4 xl:auto-rows-fr">
-                <img src="./assets/work1.svg" alt="" class="bg-work-bg-0 w-full h-[333px] shadow-team-shadow object-contain md:row-start-1 md:row-span-2 md:h-[100%]">
-                <img src="./assets/work2.svg" alt="" class="bg-work-bg-0 w-full h-[333px] shadow-team-shadow object-cover object-center sm:object-contain md:object-cover md:row-start-3 md:row-span-2 md:h-[100%]">
-                <img src="./assets/work3.svg" alt="" class="bg-work-bg-0 w-full h-[333px] shadow-team-shadow object-cover object-center sm:object-contain md:h-[100%] md:row-span-2">
-                <img src="./assets/work4.svg" alt="" id="hidden_work" class="bg-work-bg-0 hidden w-full h-[333px] md:inline-block shadow-team-shadow md:object-cover object-center md:row-start-4 md:col-span-2 md:h-[100%]">
-                <img src="./assets/work5.svg" alt="" id="hidden_work" class="bg-work-bg-0 hidden w-full h-[333px] md:inline-block shadow-team-shadow md:object-contain object-center md:h-[100%]">
-                <img src="./assets/work6.svg" alt="" id="hidden_work" class="bg-work-bg-0 hidden w-full h-[333px] md:inline-block shadow-team-shadow md:object-contain object-center md:row-start-1 md:row-span-3 md:h-[100%]">
+
+            <!-- work_cards -->
+            <div
+                class="flex flex-col gap-[32px] w-full items-center md:grid md:grid-cols-3 md:grid-rows-4 xl:auto-rows-fr">
+                <img src="./assets/work1.svg" alt=""
+                    class="bg-work-bg-0 w-full h-[333px] shadow-team-shadow object-contain md:row-start-1 md:row-span-2 md:h-[100%]">
+                <img src="./assets/work2.svg" alt=""
+                    class="bg-work-bg-0 w-full h-[333px] shadow-team-shadow object-cover object-center sm:object-contain md:object-cover md:row-start-3 md:row-span-2 md:h-[100%]">
+                <img src="./assets/work3.svg" alt=""
+                    class="bg-work-bg-0 w-full h-[333px] shadow-team-shadow object-cover object-center sm:object-contain md:h-[100%] md:row-span-2">
+                <img src="./assets/work4.svg" alt="" id="hidden_work"
+                    class="bg-work-bg-0 hidden w-full h-[333px] md:inline-block shadow-team-shadow md:object-cover object-center md:row-start-4 md:col-span-2 md:h-[100%]">
+                <img src="./assets/work5.svg" alt="" id="hidden_work"
+                    class="bg-work-bg-0 hidden w-full h-[333px] md:inline-block shadow-team-shadow md:object-contain object-center md:h-[100%]">
+                <img src="./assets/work6.svg" alt="" id="hidden_work"
+                    class="bg-work-bg-0 hidden w-full h-[333px] md:inline-block shadow-team-shadow md:object-contain object-center md:row-start-1 md:row-span-3 md:h-[100%]">
             </div>
             <button class="btn-black px-[60px] py-[24px] md:hidden" id="see-more-work">See More</button>
 
+
+        </div>
+        <!-- our_work_session_end_here -->
+
+        <!-- testimonial_session_start -->
+
+        <!-- container -->
+        <div class="py-[80px] sm:py-[100px] px-[16px] sm:px-[20px] md:px-[32px] xl:px-[150px] space-y-[60px]">
+
+            <!-- testimonial_header -->
+            <div class="text-center space-y-[20px]">
+                <h1 class="text-[40px] leading-[52px] sm:text-[54px] sm:leading-[72px] font-bold">Testimonial</h1>
+                <p class="text-[18px] leading-[23px] sm:text-[28px] sm:leading-[36px] font-semibold">Over 18,000 happy
+                    clients.</p>
+            </div>
+
+            <!-- Slider main container -->
+            <div class="swiper max-h-full">
+
+                <div class="swiper-wrapper">
+
+                    <!-- card1 -->
+                    <div class="swiper-slide space-y-[46px] px-5 py-10 w-[500px]  text-center rounded-lg border-2 border-blue-400">
+                        <div class="w-[248px] space-y-[24px] mx-auto">
+                            <img src="./assets/cus1.svg" alt=""
+                                class="size-[150px] inline-block bg-work-bg-0 rounded-full border-2 p-2">
+                            <div class="text-stars-0 space-x-[16px]">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <p class="text-[18px] leading-[23px]">
+                                “My experience with Mark is a complete success, from customer service, wide rang of
+                                products, clean store, purchasing experience
+                            </p>
+                        </div>
+                        <div class="space-y-[6px]">
+                            <p class="text-[18px] leading-[23px] font-bold">Samantha Kate</p>
+                            <p class="text-[16px] leading-[20px]">CEO of float.com</p>
+                        </div>
+                    </div>
+
+                    <!-- card2 -->
+                    <div class="swiper-slide space-y-[46px] px-5 py-10 w-[500px]  text-center rounded-lg border-2 border-blue-400">
+                        <div class="w-[248px] space-y-[24px] mx-auto">
+                            <img src="./assets/cus2.svg" alt=""
+                                class="size-[150px] inline-block bg-work-bg-0 rounded-full border-2 p-2">
+                            <div class="text-stars-0 space-x-[16px]">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <p class="text-[18px] leading-[23px]">
+                                “My experience with Mark is a complete success, from customer service, wide rang of
+                                products, clean store, purchasing experience
+                            </p>
+                        </div>
+                        <div class="space-y-[6px]">
+                            <p class="text-[18px] leading-[23px] font-bold">Samantha Kate</p>
+                            <p class="text-[16px] leading-[20px]">CEO of float.com</p>
+                        </div>
+                    </div>
+
+                    <!-- card3 -->
+                    <div class="swiper-slide space-y-[46px] px-5 py-10 w-[500px]  text-center rounded-lg border-2 border-blue-400">
+                        <div class="w-[248px] space-y-[24px] mx-auto">
+                            <img src="./assets/cus3.svg" alt=""
+                                class="size-[150px] inline-block bg-work-bg-0 rounded-full border-2 p-2">
+                            <div class="text-stars-0 space-x-[16px]">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <p class="text-[18px] leading-[23px]">
+                                “My experience with Mark is a complete success, from customer service, wide rang of
+                                products, clean store, purchasing experience
+                            </p>
+                        </div>
+                        <div class="space-y-[6px]">
+                            <p class="text-[18px] leading-[23px] font-bold">Samantha Kate</p>
+                            <p class="text-[16px] leading-[20px]">CEO of float.com</p>
+                        </div>
+                    </div>
+
+                    <!-- card4 -->
+                    <div class="swiper-slide space-y-[46px] px-5 py-10 w-[500px]  text-center rounded-lg border-2 border-blue-400">
+                        <div class="w-[248px] space-y-[24px] mx-auto">
+                            <img src="./assets/cus4.svg" alt=""
+                                class="size-[150px] inline-block bg-work-bg-0 rounded-full border-2 p-2">
+                            <div class="text-stars-0 space-x-[16px]">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <p class="text-[18px] leading-[23px]">
+                                “My experience with Mark is a complete success, from customer service, wide rang of
+                                products, clean store, purchasing experience
+                            </p>
+                        </div>
+                        <div class="space-y-[6px]">
+                            <p class="text-[18px] leading-[23px] font-bold">Samantha Kate</p>
+                            <p class="text-[16px] leading-[20px]">CEO of float.com</p>
+                        </div>
+                    </div>
+
+                    <!-- card5 -->
+                    <div class="swiper-slide space-y-[46px] px-5 py-10 w-[500px]  text-center rounded-lg border-2 border-blue-400">
+                        <div class="w-[248px] space-y-[24px] mx-auto">
+                            <img src="./assets/cus5.svg" alt=""
+                                class="size-[150px] inline-block bg-work-bg-0 rounded-full border-2 p-2">
+                            <div class="text-stars-0 space-x-[16px]">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <p class="text-[18px] leading-[23px]">
+                                “My experience with Mark is a complete success, from customer service, wide rang of
+                                products, clean store, purchasing experience
+                            </p>
+                        </div>
+                        <div class="space-y-[6px]">
+                            <p class="text-[18px] leading-[23px] font-bold">Samantha Kate</p>
+                            <p class="text-[16px] leading-[20px]">CEO of float.com</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
 
         </div>
 
@@ -461,6 +619,7 @@
     </main>
     <!-- Main-Content-End-Here -->
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./app.js"></script>
 </body>
 

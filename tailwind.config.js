@@ -15,7 +15,8 @@ module.exports = {
       colors:{
         'primary-500':['#FF5678'],
         'black-btn': ['#020E35'],
-        'work-bg': ['#FFEEF6']
+        'work-bg': ['#FFEEF6'],
+        'stars': ['#FFC107'],
       },
       boxShadow:{
         'team-shadow': "rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px",
